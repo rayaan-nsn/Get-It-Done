@@ -22,7 +22,7 @@ function TaskOptions({ index, task, tasksList, setTasksList }) {
   return (
     <li
       key={index}
-      className="d-flex align-items-center w-50 p-2"
+      className="d-flex align-items-center w-100 p-2"
       style={{ border: "1px solid black", margin: "10px auto" }}
     >
       <input

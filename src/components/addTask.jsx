@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 
 // eslint-disable-next-line react/prop-types
 function AddTask({ tasksList, setTasksList }) {
@@ -30,14 +30,23 @@ function AddTask({ tasksList, setTasksList }) {
 
   return (
     <>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
-      <textarea value={inputNote} onChange={handleInputNote} />
-      <button onClick={addTask}>Add task</button>
-      <input
-        type="checkbox"
-        checked={status}
-        onChange={() => setStatus(!status)}
-      />
+      <div className="mb-3">
+        <label htmlFor="task" className="form-label">Task</label>
+        <input type="text" value={inputValue} onChange={handleInputChange} className="form-control" id="task" placeholder="Task 1"/>
+      </div>
+      <div className="mb-3">
+        <label htmlFor="note" className="form-label">Notes</label>
+        <textarea value={inputNote} onChange={handleInputNote} className="form-control" id="note" rows="3"></textarea>
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" onClick={addTask} className="btn btn-primary" data-bs-dismiss="modal">Add Task</button>
+      </div>
+      {/*<input*/}
+      {/*  type="checkbox"*/}
+      {/*  checked={status}*/}
+      {/*  onChange={() => setStatus(!status)}*/}
+      {/*/>*/}
     </>
   );
 }
