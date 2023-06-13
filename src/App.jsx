@@ -5,22 +5,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import VerticalTabs from "./components/VerticalTabs.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlus} from "@fortawesome/free-solid-svg-icons";
-import "./components/App.css";
+
 
 function App() {
     const [tasksList, setTasksList] = useLocalStorage("tasksList", []);
 
   return (
       <>
-          {/*<nav className="navbar bg-dark">*/}
-          {/*    <div className="container-fluid">*/}
-          {/*        <a className="navbar-brand" href="#">*/}
-          {/*            <img src="https://loremflickr.com/640/360" alt="Logo" width="30" height="24"*/}
-          {/*                 className="d-inline-block align-text-top"/>*/}
-          {/*                Bootstrap*/}
-          {/*        </a>*/}
-          {/*    </div>*/}
-          {/*</nav>*/}
           <div>
               <button type="button" className="btn btn-warning position-absolute bottom-0 end-0 m-4 btn-lg fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
                    <FontAwesomeIcon icon={faPlus} /> &nbsp; Add Task
