@@ -6,8 +6,10 @@ https://getitdonne.netlify.app
 
 <img width="720" alt="image" src="https://github.com/rayaan-nsn/getitdone/assets/108685206/00e921c0-a0ab-4126-8b15-a621aa1fb1b8">
 
-
 <br></br>
+:warning: There is an ERROR while retriving from Localstorage. If you are facing it, please clear the browser's localstorage (Inspect > Application > LocalStorage). Soon this will be fixed.
+
+<br>
 
 ## Features
 
