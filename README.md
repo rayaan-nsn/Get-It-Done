@@ -4,7 +4,8 @@ This is a simple ToDo task manager application built with React and styled with 
 
 https://getitdonne.netlify.app
 
-<img width="720" alt="image" src="https://github.com/rayaan-nsn/getitdone/assets/108685206/eb682e3e-ddc3-46cf-b550-6bfce174bbef">
+<img width="720" alt="image" src="https://github.com/rayaan-nsn/getitdone/assets/108685206/00e921c0-a0ab-4126-8b15-a621aa1fb1b8">
+
 
 <br></br>
 
