@@ -1,6 +1,6 @@
 # getitdone
 
-This is a simple ToDo task manager application built with React and styled with Bootstrap. It allows you to add, manage, and track your tasks and also store those tasks in the localstorage. The application provides features like task title, description, due date, status, and priority.
+This is a simple ToDo task manager application built with React and styled with Bootstrap. It allows you to add, manage, and track your tasks and also store those tasks in the localstorage. The application provides features like add task with title, description, due date, status, and priority.
 
 https://getitdonne.netlify.app
 
